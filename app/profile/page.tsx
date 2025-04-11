@@ -53,7 +53,7 @@ export default function Profile() {
               transition={{ delay: 0.4 }}
               className="text-center mb-8"
             >
-              <h1 className="text-3xl font-bold text-white mb-2">John Doe</h1>
+              <h1 className="text-3xl font-bold text-white mb-2">Adeel</h1>
               <p className="text-gray-400">Senior Developer</p>
             </motion.div>
 
@@ -64,9 +64,9 @@ export default function Profile() {
               className="grid grid-cols-1 md:grid-cols-2 gap-6"
             >
               {[
-                { icon: Mail, label: "Email", value: "john@example.com" },
+                { icon: Mail, label: "Email", value: "adeeldev.com" },
                 { icon: Phone, label: "Phone", value: "+1 234 567 890" },
-                { icon: MapPin, label: "Location", value: "New York, USA" },
+                { icon: MapPin, label: "Location", value: "Lahore, Pakistan" },
                 { icon: Calendar, label: "Joined", value: "January 2024" },
               ].map((item, index) => (
                 <motion.div
