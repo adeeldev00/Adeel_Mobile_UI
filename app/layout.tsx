@@ -11,8 +11,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Super Animated Website',
-  description: 'A modern, animated website with stunning visual effects',
+  title: 'Adeel Website',
+  description: 'A modern, animated website with stunning visual effects created by Adeel',
 };
 
 export default function RootLayout({
